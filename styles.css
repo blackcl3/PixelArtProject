@@ -1,0 +1,78 @@
+body {
+
+    text-align: center;
+    font-color: #333333;
+
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 70px;
+    letter-spacing: 3px;
+    font-style: italic;
+}
+
+h2 {
+    /*margin: 1em 0 0.25em;*/
+    font-weight: 400;
+    color:  #6A82FB;  /* fallback for old browsers */
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    /*width: 6em;*/
+}
+
+input[type=color] {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: 400;
+}
+
+.pageHeader {
+    /*height: 150px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;*/
+    background-color: #FC5C7D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #ffffff;
+
+}
+
+.page-header {
+    font-color: #ffffff;
+}
+
+#sizePicker {
+    margin-top: 15px;
+}
+
+#resetButton {
+    margin-top: 10px;
+}
